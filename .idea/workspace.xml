@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/something.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h2NDAPSKr35ehrFYeW8zSZW9Lj" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="10.17.29" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="" />
+      <created>1599205104967</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599205104967</updated>
+      <workItem from="1599205106054" duration="20891000" />
+      <workItem from="1599707525025" duration="47000" />
+      <workItem from="1599707595047" duration="62000" />
+      <workItem from="1599707685034" duration="1293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="497" y="-813" key="#JavaScript" timestamp="1599640575916">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="497" y="-813" key="#JavaScript/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1599640575916" />
+    <state x="486" y="-853" key="#TypeScript" timestamp="1599648909741">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="486" y="-853" key="#TypeScript/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1599648909741" />
+    <state x="269" y="-886" key="SettingsEditor" timestamp="1599707733850">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="269" y="-886" key="SettingsEditor/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1599707733850" />
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599444097472" />
+  </component>
+</project>

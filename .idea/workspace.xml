@@ -1,22 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/something.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Public Elements/types/buttonProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Public Elements/Buttons/ConfirmButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Public Elements/Buttons/ConfirmButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/neko12377/something" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="r2u9q3wp" />
   </component>
   <component name="ProjectId" id="1h2NDAPSKr35ehrFYeW8zSZW9Lj" />
   <component name="ProjectViewState">
@@ -27,12 +80,41 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.29" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="/usr/local/Cellar/node/14.8.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,12 +127,55 @@
       <workItem from="1599205106054" duration="20891000" />
       <workItem from="1599707525025" duration="47000" />
       <workItem from="1599707595047" duration="62000" />
-      <workItem from="1599707685034" duration="1293000" />
+      <workItem from="1599707685034" duration="2359000" />
+      <workItem from="1599815945721" duration="135000" />
+      <workItem from="1600047585527" duration="805000" />
+      <workItem from="1600054429371" duration="677000" />
+      <workItem from="1600134314869" duration="50000" />
+      <workItem from="1600135066156" duration="748000" />
+      <workItem from="1600139725536" duration="8000" />
+      <workItem from="1600679557452" duration="23040000" />
+      <workItem from="1600960432825" duration="1280000" />
+      <workItem from="1602138798050" duration="748000" />
+      <workItem from="1602140487416" duration="67000" />
+      <workItem from="1602140604971" duration="634000" />
+      <workItem from="1602141263864" duration="2634000" />
+      <workItem from="1602642226364" duration="635000" />
+      <workItem from="1602655149848" duration="20000" />
+      <workItem from="1602657464189" duration="34000" />
+      <workItem from="1602747782190" duration="1122000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="497" y="-813" key="#JavaScript" timestamp="1599640575916">
@@ -61,10 +186,50 @@
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
     <state x="486" y="-853" key="#TypeScript/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1599648909741" />
-    <state x="269" y="-886" key="SettingsEditor" timestamp="1599707733850">
+    <state x="344" y="-935" key="CommitChangelistDialog2" timestamp="1600766769497">
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="269" y="-886" key="SettingsEditor/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1599707733850" />
+    <state x="344" y="-935" key="CommitChangelistDialog2/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600766769497" />
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom" timestamp="1600843200653">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600843200653" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center" timestamp="1600843200652">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.center/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600843200652" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left" timestamp="1600843200651">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.left/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600843200651" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right" timestamp="1600843200652">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.right/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600843200652" />
+    <state x="533" y="-914" key="SettingsEditor" timestamp="1602747811925">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="533" y="-914" key="SettingsEditor/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1602747811925" />
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599444097472" />
+    <state x="111" y="-1021" width="1529" height="853" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1602642852256">
+      <screen x="-1023" y="-1057" width="3840" height="1057" />
+    </state>
+    <state x="111" y="-1021" width="1529" height="853" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1602642852256" />
+    <state x="713" y="-620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600748016622">
+      <screen x="-180" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="713" y="-620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600748016622" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Public Elements/Buttons/ConfirmButton.tsx</url>
+          <line>23</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

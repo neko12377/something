@@ -1,10 +1,15 @@
-import React from 'react';
-import { render } from 'react-dom';
-import ConfirmButton from './Public Elements/Buttons/ConfirmButton';
+import React from "react";
+import { render } from "react-dom";
+import Button from "./Public Elements/Buttons/ConfirmButton";
 
 render(
-    <ConfirmButton width={60} buttonColor="mediumseagreen" />,
-    document.getElementById('root')
+    <Button
+        width={60}
+        buttonColor="mediumseagreen"
+        borderColor="dodgerblue"
+        borderRadius={12}
+    >
+        HEllo
+    </Button>,
+    document.getElementById("root"),
 );
-
-

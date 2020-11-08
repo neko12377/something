@@ -1,15 +1,17 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-// const createStyledComponentsTransformer = require("typescript-plugin-styled-components").default;
-//
-// const styledComponentsTransformer = createStyledComponentsTransformer();
 
-module.exports = {
-    entry: "./src/index.tsx",
+const config = {
+    mode: "development",
+    context: path.resolve("src"),
+    entry: {
+        index: "./index.tsx",
+    },
     output: {
         filename: "bundle.js",
-        path: path.resolve("docs"),
+        path: path.resolve("dist"),
+        publicPath: "/",
     },
     resolve: {
         extensions: [".tsx", ".ts", ".js", "jsx", "css", "scss", "sass"],
@@ -64,13 +66,16 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "./index.css",
+            filename: "./styles/index.css",
         }),
         new HtmlWebpackPlugin({
-            template: "./src/index.html",
+            template: "./index.html",
         }),
     ],
     devServer: {
         port: 9527,
     },
 };
+
+module.exports = config;
+console.log(config.context);

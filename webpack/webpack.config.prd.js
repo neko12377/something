@@ -14,7 +14,7 @@ const config = {
         publicPath: "./",
     },
     resolve: {
-        extensions: [".tsx", ".js"],
+        extensions: [".tsx?", ".js"],
     },
     module: {
         rules: [

@@ -33,15 +33,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Public Elements/types/buttonProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+    <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="Component: Button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Public Elements/Buttons/ConfirmButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Public Elements/Buttons/ConfirmButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.config.prd.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.config.prd.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -95,11 +92,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="/usr/local/Cellar/node/14.8.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Shared components/View" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -143,12 +150,77 @@
       <workItem from="1602642226364" duration="635000" />
       <workItem from="1602655149848" duration="20000" />
       <workItem from="1602657464189" duration="34000" />
-      <workItem from="1602747782190" duration="1122000" />
+      <workItem from="1602747782190" duration="1168000" />
+      <workItem from="1602756741220" duration="6659000" />
+      <workItem from="1604374527409" duration="11777000" />
+      <workItem from="1604822062457" duration="8879000" />
     </task>
+    <task id="LOCAL-00001" summary="Component: Button">
+      <created>1602748917341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602748917341</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&lt;refactor&gt;(element/Button): split view and controller">
+      <created>1604831489095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831489095</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&lt;refactor&gt;(template/index.html): format">
+      <created>1604831525821</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831525821</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&lt;refactor&gt;(directory): rename Public Elements to Shared components">
+      <created>1604831617943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831617943</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&lt;refactor&gt;(script): change cli command">
+      <created>1604831671954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831671954</updated>
+    </task>
+    <task id="LOCAL-00006" summary="&lt;feat&gt;(test): add test file">
+      <created>1604831704009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831704009</updated>
+    </task>
+    <task id="LOCAL-00007" summary="&lt;refactor&gt;(webpack): alter webpack config, split development and production configuration">
+      <created>1604831837895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604831837895</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&lt;build&gt;(webpack): webpack update">
+      <created>1604832071907</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604832071907</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -175,9 +247,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Component: Button" />
+    <MESSAGE value="&lt;refactor&gt;(element/Button): split view and controller" />
+    <MESSAGE value="&lt;refactor&gt;(template/index.html): format" />
+    <MESSAGE value="&lt;refactor&gt;(directory): rename Public Elements to Shared components" />
+    <MESSAGE value="&lt;refactor&gt;(script): change cli command" />
+    <MESSAGE value="&lt;feat&gt;(test): add test file" />
+    <MESSAGE value="&lt;refactor&gt;(webpack): alter webpack config, split development and production configuration" />
+    <MESSAGE value="&lt;build&gt;(webpack): webpack update" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;build&gt;(webpack): webpack update" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="480" y="-803" key="#ESLint" timestamp="1604396588608">
+      <screen x="-180" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="480" y="-803" key="#ESLint/0.0.1680.1050/-180.-1080.1920.1080@-180.-1080.1920.1080" timestamp="1604396588608" />
+    <state x="623" y="160" key="#JSHint" timestamp="1604374908899">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="623" y="160" key="#JSHint/0.0.1680.1050/-180.-1080.1920.1080@0.0.1680.1050" timestamp="1604374908899" />
     <state x="497" y="-813" key="#JavaScript" timestamp="1599640575916">
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
@@ -206,11 +294,16 @@
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.right/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600843200652" />
-    <state x="533" y="-914" key="SettingsEditor" timestamp="1602747811925">
-      <screen x="-180" y="-1057" width="1920" height="1057" />
+    <state x="624" y="142" key="SettingsEditor" timestamp="1604374733449">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="624" y="142" key="SettingsEditor/0.0.1680.1050/-180.-1080.1920.1080@0.0.1680.1050" timestamp="1604374733449" />
     <state x="533" y="-914" key="SettingsEditor/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1602747811925" />
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599444097472" />
+    <state x="955" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1604832143957">
+      <screen x="-1023" y="-1057" width="3840" height="1057" />
+    </state>
+    <state x="955" y="-789" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1604832143957" />
     <state x="111" y="-1021" width="1529" height="853" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1602642852256">
       <screen x="-1023" y="-1057" width="3840" height="1057" />
     </state>
@@ -219,17 +312,5 @@
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
     <state x="713" y="-620" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600748016622" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Public Elements/Buttons/ConfirmButton.tsx</url>
-          <line>23</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import Button from "./Public Elements/Buttons/ConfirmButton";
+import Button from "./Shared components/View/Buttons/ConfirmButton";
 
 render(
     <Button

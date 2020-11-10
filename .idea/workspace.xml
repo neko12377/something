@@ -33,10 +33,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="Component: Button">
+    <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="&lt;refactor&gt;(webpack): alter webpack configuration">
+      <change afterPath="$PROJECT_DIR$/Curriculum/First App.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/annotations/functions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/annotations/variable.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/webpack.config.prd.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.config.prd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +98,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="/usr/local/Cellar/node/14.8.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -102,9 +108,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -153,7 +159,10 @@
       <workItem from="1602747782190" duration="1168000" />
       <workItem from="1602756741220" duration="6659000" />
       <workItem from="1604374527409" duration="11777000" />
-      <workItem from="1604822062457" duration="8879000" />
+      <workItem from="1604822062457" duration="10024000" />
+      <workItem from="1604924232966" duration="371000" />
+      <workItem from="1604924709428" duration="3211000" />
+      <workItem from="1605015051914" duration="4423000" />
     </task>
     <task id="LOCAL-00001" summary="Component: Button">
       <created>1602748917341</created>
@@ -211,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604832071907</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&lt;refactor&gt;(webpack): alter webpack configuration">
+      <created>1604832262791</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604832262791</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +235,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/Curriculum/First App.js" />
       </list>
     </option>
   </component>
@@ -255,7 +272,8 @@
     <MESSAGE value="&lt;feat&gt;(test): add test file" />
     <MESSAGE value="&lt;refactor&gt;(webpack): alter webpack config, split development and production configuration" />
     <MESSAGE value="&lt;build&gt;(webpack): webpack update" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;build&gt;(webpack): webpack update" />
+    <MESSAGE value="&lt;refactor&gt;(webpack): alter webpack configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(webpack): alter webpack configuration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="-803" key="#ESLint" timestamp="1604396588608">
@@ -294,9 +312,10 @@
       <screen x="-180" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1899" height="280" key="GridCell.Tab.0.right/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1600843200652" />
-    <state x="624" y="142" key="SettingsEditor" timestamp="1604374733449">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="403" y="-934" key="SettingsEditor" timestamp="1604924616810">
+      <screen x="-1023" y="-1080" width="3840" height="1080" />
     </state>
+    <state x="403" y="-934" key="SettingsEditor/0.0.1680.1050/-1023.-1080.3840.1080@-1023.-1080.3840.1080" timestamp="1604924616810" />
     <state x="624" y="142" key="SettingsEditor/0.0.1680.1050/-180.-1080.1920.1080@0.0.1680.1050" timestamp="1604374733449" />
     <state x="533" y="-914" key="SettingsEditor/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1602747811925" />
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599444097472" />

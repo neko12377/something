@@ -34,15 +34,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="&lt;refactor&gt;(webpack): alter webpack configuration">
-      <change afterPath="$PROJECT_DIR$/Curriculum/First App.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curriculum/annotations/functions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curriculum/annotations/variable.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curriculum/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/annotations/objects.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/arrays.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curriculum/annotations/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Curriculum/annotations/functions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,10 @@
       <workItem from="1604822062457" duration="10024000" />
       <workItem from="1604924232966" duration="371000" />
       <workItem from="1604924709428" duration="3211000" />
-      <workItem from="1605015051914" duration="4423000" />
+      <workItem from="1605015051914" duration="4566000" />
+      <workItem from="1605020028394" duration="94000" />
+      <workItem from="1605058938326" duration="87000" />
+      <workItem from="1605108969964" duration="3786000" />
     </task>
     <task id="LOCAL-00001" summary="Component: Button">
       <created>1602748917341</created>
@@ -227,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604832262791</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Course: Typescript: The Complete Developer's Guide [2020] lesson 1 - 4-1">
+      <created>1605019949306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605019949306</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +278,8 @@
     <MESSAGE value="&lt;refactor&gt;(webpack): alter webpack config, split development and production configuration" />
     <MESSAGE value="&lt;build&gt;(webpack): webpack update" />
     <MESSAGE value="&lt;refactor&gt;(webpack): alter webpack configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;refactor&gt;(webpack): alter webpack configuration" />
+    <MESSAGE value="Course: Typescript: The Complete Developer's Guide [2020] lesson 1 - 4-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course: Typescript: The Complete Developer's Guide [2020] lesson 1 - 4-1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="-803" key="#ESLint" timestamp="1604396588608">

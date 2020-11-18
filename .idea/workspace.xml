@@ -19,8 +19,9 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -34,10 +35,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7fa23a-2e80-4eea-86ec-7deffd0b4b38" name="Default Changelist" comment="&lt;refactor&gt;(webpack): alter webpack configuration">
-      <change afterPath="$PROJECT_DIR$/Curriculum/annotations/objects.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curriculum/arrays.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Compound interest Caculator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/classes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/interfaces.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curriculum/tuples.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curriculum/annotations/functions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Curriculum/annotations/functions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +83,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.13.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.29" />
+    <property name="last.edited.regexp" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -103,11 +106,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -160,7 +158,19 @@
       <workItem from="1605015051914" duration="4566000" />
       <workItem from="1605020028394" duration="94000" />
       <workItem from="1605058938326" duration="87000" />
-      <workItem from="1605108969964" duration="3786000" />
+      <workItem from="1605108969964" duration="4105000" />
+      <workItem from="1605198667781" duration="1148000" />
+      <workItem from="1605234299308" duration="1220000" />
+      <workItem from="1605285869019" duration="590000" />
+      <workItem from="1605288958882" duration="564000" />
+      <workItem from="1605334108376" duration="4271000" />
+      <workItem from="1605492879035" duration="142000" />
+      <workItem from="1605523052137" duration="157000" />
+      <workItem from="1605523313563" duration="12000" />
+      <workItem from="1605678772504" duration="429000" />
+      <workItem from="1605710562435" duration="3595000" />
+      <workItem from="1605717179789" duration="18000" />
+      <workItem from="1605717303174" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="Component: Button">
       <created>1602748917341</created>
@@ -232,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605019949306</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Course(Typescript): Typescript: The Complete Developer's Guide [2020] 4-2 - 5">
+      <created>1605113423316</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605113423316</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +272,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -279,7 +296,8 @@
     <MESSAGE value="&lt;build&gt;(webpack): webpack update" />
     <MESSAGE value="&lt;refactor&gt;(webpack): alter webpack configuration" />
     <MESSAGE value="Course: Typescript: The Complete Developer's Guide [2020] lesson 1 - 4-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Course: Typescript: The Complete Developer's Guide [2020] lesson 1 - 4-1" />
+    <MESSAGE value="Course(Typescript): Typescript: The Complete Developer's Guide [2020] 4-2 - 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course(Typescript): Typescript: The Complete Developer's Guide [2020] 4-2 - 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="-803" key="#ESLint" timestamp="1604396588608">
@@ -325,9 +343,10 @@
     <state x="624" y="142" key="SettingsEditor/0.0.1680.1050/-180.-1080.1920.1080@0.0.1680.1050" timestamp="1604374733449" />
     <state x="533" y="-914" key="SettingsEditor/0.23.1680.1027/-180.-1057.1920.1057@-180.-1057.1920.1057" timestamp="1602747811925" />
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1599444097472" />
-    <state x="955" y="-789" key="Vcs.Push.Dialog.v2" timestamp="1604832143957">
-      <screen x="-1023" y="-1057" width="3840" height="1057" />
+    <state x="955" y="-806" key="Vcs.Push.Dialog.v2" timestamp="1605113428963">
+      <screen x="-1023" y="-1080" width="3840" height="1080" />
     </state>
+    <state x="955" y="-806" key="Vcs.Push.Dialog.v2/0.0.1680.1050/-1023.-1080.3840.1080@-1023.-1080.3840.1080" timestamp="1605113428963" />
     <state x="955" y="-789" key="Vcs.Push.Dialog.v2/0.23.1680.1027/-1023.-1057.3840.1057@-1023.-1057.3840.1057" timestamp="1604832143957" />
     <state x="111" y="-1021" width="1529" height="853" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1602642852256">
       <screen x="-1023" y="-1057" width="3840" height="1057" />
